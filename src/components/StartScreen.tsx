@@ -14,7 +14,7 @@ const StartScreen = (props: IStartScreenProps) => {
 			<h2>Welcome to The React Quiz!</h2>
 			<p>{numQuestions} questions to mastery your knowledge about React</p>
 			<button
-				className="btn btn-ui"
+				className="btn btn-ui margin-top"
 				onClick={() => dispatch({ type: "start" })}
 			>
 				Let's start
