@@ -1,6 +1,19 @@
+![Logo](documentation/images/logo.png)
+
 # ReactQuiz
 
 Quiz with questions about React
+
+## ℹ️ Basic concept
+
+The basic assumption when creating React Quiz App was to learn how useReducer works and implement it using TypeScript. Additionally, simulate the REST API using a local server using JSONServer.
+
+## ❓ How it works
+
+User answers questions about React. He has a limited time for this and a certain number of points to earn. Each question has a different point value. At the end of the quiz, the user receives a summary with his result.
+
+![Start](documentation/images/Start.gif)
+![Start](documentation/images/Answers.gif)
 
 ## Run Locally
 
@@ -43,7 +56,7 @@ Start the site
 - npm v9.5.0
 - React,
 - TypeScript,
-- SCSS,
+- CSS,
 - JSONServer
 
 ## Author
