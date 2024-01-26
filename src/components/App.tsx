@@ -42,7 +42,7 @@ const reducer = (state: IState, action: IAction): IState => {
 			return {
 				...state,
 				answer: action.answer ?? null,
-				points: action.answer === question.correctOption ? (state.points += question.points) : state.points,
+				points: action.answer === question.correctOption ? state.points + question.points : state.points,
 			};
 		case "nextQuestion":
 			return { ...state, index: state.index + 1, answer: null };
