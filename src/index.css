@@ -243,6 +243,10 @@ progress {
 	padding: 0.8rem;
 }
 
+.margin-top {
+	margin-top: 10px;
+}
+
 @keyframes loader {
 	20% {
 		background-position: 0% 0%, 50% 50%, 100% 50%;
